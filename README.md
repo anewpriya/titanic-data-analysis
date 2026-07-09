@@ -4,11 +4,15 @@
 
 \## Overview
 
+
+
 A comprehensive exploratory data analysis of the Titanic dataset, investigating passenger survival patterns and the impact of demographic factors on survival rates.
 
 
 
 \## Dataset
+
+
 
 \- \*\*Source:\*\* \[Kaggle - Titanic: Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic/data)
 
@@ -16,7 +20,7 @@ A comprehensive exploratory data analysis of the Titanic dataset, investigating 
 
 \- \*\*Test set:\*\* 418 passengers for prediction
 
-\- \*\*Files:\*\* `data/train.csv`, `data/test.csv`
+\- \*\*Files:\*\* data/train.csv, data/test.csv
 
 
 
@@ -26,6 +30,8 @@ A comprehensive exploratory data analysis of the Titanic dataset, investigating 
 
 \### Gender Impact
 
+
+
 \- \*\*Female survival rate:\*\* 74.2%
 
 \- \*\*Male survival rate:\*\* 18.9%
@@ -34,7 +40,9 @@ A comprehensive exploratory data analysis of the Titanic dataset, investigating 
 
 
 
-\### Age \& Gender Interaction
+\### Age and Gender Interaction
+
+
 
 The analysis reveals that gender was the strongest predictor of survival across all age groups:
 
@@ -44,19 +52,19 @@ The analysis reveals that gender was the strongest predictor of survival across 
 
 |-----------|--------------|-----------------|-----------|
 
-| 0-10      | 57.6%        | 61.3%           | 3.7%      |
+| 0-10 | 57.6% | 61.3% | 3.7% |
 
-| 11-20     | 14.5%        | 73.9%           | 59.4%     |
+| 11-20 | 14.5% | 73.9% | 59.4% |
 
-| 21-30     | 15.4%        | 75.3%           | 59.9%     |
+| 21-30 | 15.4% | 75.3% | 59.9% |
 
-| 31-40     | 23.0%        | 83.6%           | 60.6%     |
+| 31-40 | 23.0% | 83.6% | 60.6% |
 
-| 41-50     | 21.8%        | 67.7%           | 45.9%     |
+| 41-50 | 21.8% | 67.7% | 45.9% |
 
-| 51-60     | 14.3%        | 92.9%           | 78.6%     |
+| 51-60 | 14.3% | 92.9% | 78.6% |
 
-| 60+       | 10.5%        | 100.0%          | 89.5%     |
+| 60+ | 10.5% | 100.0% | 89.5% |
 
 
 
@@ -70,6 +78,8 @@ The analysis reveals that gender was the strongest predictor of survival across 
 
 The analysis uses Python with pandas, NumPy, and Matplotlib for:
 
+
+
 1\. Data loading and exploration
 
 2\. Demographic analysis by gender and age
@@ -81,6 +91,8 @@ The analysis uses Python with pandas, NumPy, and Matplotlib for:
 
 
 \## Files in This Repository
+
+
 
 \- `notebooks/titanic\_analysis.ipynb` - Complete analysis notebook with code and visualizations
 
@@ -94,11 +106,15 @@ The analysis uses Python with pandas, NumPy, and Matplotlib for:
 
 \## Visualizations
 
+
+
 The analysis includes a line chart comparing male and female survival rates across age groups, clearly showing the gender disparity in survival outcomes.
 
 
 
 \## Lessons Learned
+
+
 
 1\. Gender was the strongest predictor of survival on the Titanic
 
@@ -110,7 +126,9 @@ The analysis includes a line chart comparing male and female survival rates acro
 
 
 
-\## Tools \& Libraries
+\## Tools and Libraries
+
+
 
 \- Python 3.12
 
@@ -126,11 +144,15 @@ The analysis includes a line chart comparing male and female survival rates acro
 
 \## Author
 
+
+
 Anupriya Singh
 
 
 
 \## License
+
+
 
 This project uses publicly available data from Kaggle.
 
