@@ -14,13 +14,13 @@ A comprehensive exploratory data analysis of the Titanic dataset, investigating 
 
 
 
-\- Source: Kaggle - Titanic: Machine Learning from Disaster
+\- \*\*Source:\*\* \[Kaggle - Titanic: Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic/data)
 
-\- Train set: 891 passengers with 12 features
+\- \*\*Train set:\*\* 891 passengers with 12 features
 
-\- Test set: 418 passengers for prediction
+\- \*\*Test set:\*\* 418 passengers for prediction
 
-\- Files: data/train.csv, data/test.csv
+\- \*\*Files:\*\* data/train.csv, data/test.csv
 
 
 
@@ -32,11 +32,11 @@ A comprehensive exploratory data analysis of the Titanic dataset, investigating 
 
 
 
-\- Female survival rate: 74.2%
+\- \*\*Female survival rate:\*\* 74.2%
 
-\- Male survival rate: 18.9%
+\- \*\*Male survival rate:\*\* 18.9%
 
-\- Insight: "Women and children first" policy was clearly evident in the data
+\- \*\*Insight:\*\* "Women and children first" policy was clearly evident in the data
 
 
 
@@ -48,25 +48,27 @@ The analysis reveals that gender was the strongest predictor of survival across 
 
 
 
-Age Group | Male Survival | Female Survival | Difference
+| Age Group | Male Survival | Female Survival | Difference |
 
-0-10 | 57.6% | 61.3% | 3.7%
+|-----------|--------------|-----------------|-----------|
 
-11-20 | 14.5% | 73.9% | 59.4%
+| 0-10 | 57.6% | 61.3% | 3.7% |
 
-21-30 | 15.4% | 75.3% | 59.9%
+| 11-20 | 14.5% | 73.9% | 59.4% |
 
-31-40 | 23.0% | 83.6% | 60.6%
+| 21-30 | 15.4% | 75.3% | 59.9% |
 
-41-50 | 21.8% | 67.7% | 45.9%
+| 31-40 | 23.0% | 83.6% | 60.6% |
 
-51-60 | 14.3% | 92.9% | 78.6%
+| 41-50 | 21.8% | 67.7% | 45.9% |
 
-60+ | 10.5% | 100.0% | 89.5%
+| 51-60 | 14.3% | 92.9% | 78.6% |
+
+| 60+ | 10.5% | 100.0% | 89.5% |
 
 
 
-Key Insight: Women in every age group had significantly higher survival rates. The gender gap was largest for elderly passengers (89.5% difference).
+\*\*Key Insight:\*\* Women in every age group had significantly higher survival rates. The gender gap was largest for elderly passengers (89.5% difference).
 
 
 
@@ -92,13 +94,13 @@ The analysis uses Python with pandas, NumPy, and Matplotlib for:
 
 
 
-\- notebooks/titanic\_analysis.ipynb - Complete analysis notebook with code and visualizations
+\- `notebooks/titanic\_analysis.ipynb` - Complete analysis notebook with code and visualizations
 
-\- data/train.csv - Training dataset
+\- `data/train.csv` - Training dataset
 
-\- data/test.csv - Test dataset
+\- `data/test.csv` - Test dataset
 
-\- README.md - This file
+\- `README.md` - This file
 
 
 
